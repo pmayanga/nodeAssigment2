@@ -11,3 +11,10 @@ I used postman to test my project. I made one call for each method on both cases
 3. Let us know if anything doesn't work as intended so your reviewers will know ahead of time
 
 Actually, the I´ve modified the initial in-memory store so now "comments" is an array of jsons objects. I´ve also copied this data in posts.js and comments.js
+
+In order to run the project you need to dowload the zip and unzip the file to any folder
+
+After that, in the previous folder, you need to install the following packages: express , morgan, errorhandler and body-parser: 
+npm i  express morgan errorhandler body-parser
+
+The you can run the project with the command: node server.js
